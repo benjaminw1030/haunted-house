@@ -11,6 +11,7 @@ $(document).ready(function() {
   $(".runAway").click(function() {
     $("#frontDoor").hide();
     $("#coward").show();
+    alert("Your score is " + score);
   });
   $("#investigate").click(function() {
     $("#foyer").hide();
@@ -20,10 +21,12 @@ $(document).ready(function() {
   $("#fight").click(function() {
     $("#monster").hide();
     $("#death").show();
+    alert("Your score is " + score);
   });
   $("#befriend").click(function() {
     $("#monster").hide();
     $("#pizzaParty").show();
     score += 2;
+    alert("Your score is " + score);
   });
 });
