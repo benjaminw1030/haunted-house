@@ -21,3 +21,7 @@
 h1 {
   font-family: "Creepster";
 }
+
+#runAway {
+  display: none;
+}
