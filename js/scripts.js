@@ -17,8 +17,13 @@ $(document).ready(function() {
     $("#monster").show();
     score += 1;
   });
-  $(".runAway").click(function() {
-    $("#foyer").hide();
-    $("#coward").show();
+  $("#fight").click(function() {
+    $("#monster").hide();
+    $("#death").show();
+  });
+  $("#befriend").click(function() {
+    $("#monster").hide();
+    $("#pizzaParty").show();
+    score += 2;
   });
 });
