@@ -5,28 +5,28 @@ var score = 0
 $(document).ready(function() {
   $("#openDoor").click(function() {
     $("#frontDoor").hide();
-    $("#foyer").show();
+    $("#foyer").fadeIn();
     score += 1;
   });
   $(".runAway").click(function() {
     $("#frontDoor").hide();
     $("#foyer").hide();
-    $("#coward").show();
+    $("#coward").fadeIn();
     alert("Your score is " + score);
   });
   $("#investigate").click(function() {
     $("#foyer").hide();
-    $("#monster").show();
+    $("#monster").fadeIn();
     score += 1;
   });
   $("#fight").click(function() {
     $("#monster").hide();
-    $("#death").show();
+    $("#death").fadeIn();
     alert("Your score is " + score);
   });
   $("#befriend").click(function() {
     $("#monster").hide();
-    $("#pizzaParty").show();
+    $("#pizzaParty").fadeIn();
     score += 2;
     alert("Your score is " + score);
   });
