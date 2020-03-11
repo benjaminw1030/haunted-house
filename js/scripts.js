@@ -3,10 +3,22 @@ var score = 0
 
 // user interface logic
 $(document).ready(function() {
-  $("#frontDoorOpen").click(function() {
+  $("#openDoor").click(function() {
     $("#frontDoor").hide();
-    $("#parlor").show();
-    score += 1
+    $("#foyer").show();
+    score += 1;
   });
-
+  $(".runAway").click(function() {
+    $("#frontDoor").hide();
+    $("#coward").show();
+  });
+  $("#investigate").click(function() {
+    $("#foyer").hide();
+    $("#monster").show();
+    score += 1;
+  });
+  $(".runAway").click(function() {
+    $("#foyer").hide();
+    $("#coward").show();
+  });
 });
