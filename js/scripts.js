@@ -29,4 +29,7 @@ $(document).ready(function() {
     score += 2;
     alert("Your score is " + score);
   });
+  $(".tryAgain").click(function() {
+    location.reload(true);
+  }
 });
