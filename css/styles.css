@@ -28,3 +28,10 @@ h1 {
 .pictures {
   width:70%;
 }
+#weenieHut {
+  height: 700px;
+  width: auto;
+}
+.container {
+  text-align: center;
+}
