@@ -1,3 +1,8 @@
+body {
+  background-color: black;
+  color: #00ff00;
+}
+
 #foyer {
   display: none;
 }
@@ -27,4 +32,11 @@ h1 {
 }
 .pictures {
   width:70%;
+}
+#weenieHut {
+  height: 700px;
+  width: auto;
+}
+.container {
+  text-align: center;
 }
