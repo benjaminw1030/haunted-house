@@ -12,7 +12,8 @@ $(document).ready(function() {
     $("#frontDoor").hide();
     $("#foyer").hide();
     $("#coward").fadeIn();
-    alert("Your score is " + score);
+    $("#score").fadeIn();
+    $("#score").text("Your score is " + score);
   });
   $("#investigate").click(function() {
     $("#foyer").hide();
@@ -22,13 +23,15 @@ $(document).ready(function() {
   $("#fight").click(function() {
     $("#monster").hide();
     $("#death").fadeIn();
-    alert("Your score is " + score);
+    $("#score").fadeIn();
+    $("#score").text("Your score is " + score);
   });
   $("#befriend").click(function() {
     $("#monster").hide();
     $("#pizzaParty").fadeIn();
     score += 2;
-    alert("Your score is " + score);
+    $("#score").fadeIn();
+    $("#score").text("Your score is " + score);
   });
   $(".tryAgain").click(function() {
     location.reload(true);
