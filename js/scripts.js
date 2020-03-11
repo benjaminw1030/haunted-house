@@ -31,5 +31,5 @@ $(document).ready(function() {
   });
   $(".tryAgain").click(function() {
     location.reload(true);
-  }
+  });
 });
