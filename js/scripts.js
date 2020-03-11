@@ -10,6 +10,7 @@ $(document).ready(function() {
   });
   $(".runAway").click(function() {
     $("#frontDoor").hide();
+    $("#foyer").hide();
     $("#coward").show();
     alert("Your score is " + score);
   });
