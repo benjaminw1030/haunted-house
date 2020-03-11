@@ -17,3 +17,14 @@
 #pizzaParty {
   display: none;
 }
+
+h1 {
+  font-family: "Creepster";
+}
+
+#runAway {
+  display: none;
+}
+.pictures {
+  width:70%;
+}

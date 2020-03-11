@@ -9,8 +9,9 @@ $(document).ready(function() {
     score += 1;
   });
   $(".runAway").click(function() {
-    $("#frontDoor").fadeOut();
-    $("#coward").fadeIn();
+    $("#frontDoor").hide();
+    $("#foyer").hide();
+    $("#coward").show();
     alert("Your score is " + score);
   });
   $("#investigate").click(function() {
