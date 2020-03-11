@@ -40,3 +40,7 @@ h1 {
 .container {
   text-align: center;
 }
+.btn-success {
+  background-color: #08e008;
+  color: black;
+}
