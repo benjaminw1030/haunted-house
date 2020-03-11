@@ -1,3 +1,19 @@
-.container {
-  text-align: center;
+#foyer {
+  display: none;
+}
+
+#coward {
+  display: none;
+}
+
+#monster {
+  display: none;
+}
+
+#death {
+  display: none;
+}
+
+#pizzaParty {
+  display: none;
 }
