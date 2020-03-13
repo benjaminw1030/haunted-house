@@ -22,9 +22,14 @@ $(document).ready(function() {
   });
   $("#fight").click(function() {
     $("#monster").hide();
-    $("#death").fadeIn();
-    $("#score").fadeIn();
-    $("#score").text("Your score is " + score);
+    if (Math.ceil(Math.random()*4) > 3) {
+      $("#victory").fadeIn();
+      score += 3;
+    } else {
+      $("#death").fadeIn();
+      $("#score").fadeIn();
+      $("#score").text("Your score is " + score);
+    };
   });
   $("#befriend").click(function() {
     $("#monster").hide();

@@ -41,6 +41,9 @@ body {
   height: 700px;
   width: auto;
 }
+#victory {
+  display: none;
+}
 .container {
   text-align: center;
 }
