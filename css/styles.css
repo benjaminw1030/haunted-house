@@ -44,6 +44,12 @@ body {
 #victory {
   display: none;
 }
+#bigPizzaParty {
+  display: none;
+}
+#splinter{
+  display: none;
+}
 .container {
   text-align: center;
 }
