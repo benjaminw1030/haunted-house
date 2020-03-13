@@ -71,10 +71,10 @@ body {
   font-size: 45px;
 }
 
-#cowabunga {
-  font-family: "Chewy";
-  font-size: 60px;
-  font-kerning: 2px;
+.cowabunga {
+  font-family: "Chewy" !important;
+  font-size: 60px !important;
+  font-kerning: 2px !important;
 }
 
 #score {
