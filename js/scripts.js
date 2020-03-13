@@ -27,6 +27,7 @@ $(document).ready(function() {
     $("#foyer").hide();
     $("#basement").fadeIn();
     score += 1;
+    $("#score").text("Your score is " + score);
   });
 
   $("#fight").click(function() {
