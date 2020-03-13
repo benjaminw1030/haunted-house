@@ -18,11 +18,11 @@
 _reach out to tjklaus91@gmail.com for all questions and concerns_
 
 ## Technologies Used 
-_Visual Studio Code_
-_HTML_
-_CSS_
-_Bootstrap_
-_Javascript_
-_Jquery_
-
+_Visual Studio Code_  
+_HTML_  
+_CSS_  
+_Bootstrap_  
+_Javascript_  
+_Jquery_  
+  
 Copyright (c) 2020 **_Tim Klaus_**
