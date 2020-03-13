@@ -23,6 +23,12 @@ $(document).ready(function() {
     score += 1;
   });
 
+  $("#hide").click(function() {
+    $("#foyer").hide();
+    $("#basement").fadeIn();
+    score += 1;
+  });
+
   $("#fight").click(function() {
     $("#monster").hide();
     if (Math.ceil(Math.random()*4) > 3) {
