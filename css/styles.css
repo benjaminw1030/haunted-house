@@ -23,6 +23,10 @@ body {
   display: none;
 }
 
+#basement {
+  display: none;
+}
+
 #headline {
   font-family: "Creepster";
   font-size: 80px;
