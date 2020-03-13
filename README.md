@@ -25,4 +25,4 @@ _Bootstrap_
 _Javascript_  
 _Jquery_  
   
-Copyright (c) 2020 **_Tim Klaus_**
+Copyright (c) 2020 **_Tim Klaus, Benjamin Wilson, & Meliah Mackay_**
