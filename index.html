@@ -4,46 +4,48 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Creepster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chewy&display=swap" rel="stylesheet">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Haunted House Choose your own Adventure</title>
   </head>
   <body>
     <div class="container">
-      <h1>Haunted House Adventure</h1>
+      <h1 id="headline">Haunted House Adventure</h1>
       <div id="frontDoor">
         <img src="img/house.jpg" alt="Scary House" class="pictures">
-        <h4>You're in an old neighborhood, your walking by a scary old house, you hear a loud sound... Frightened you come to a choice</h4>
+        <h4>You're in an old neighborhood; you're walking by a scary old house, and you hear a loud sound... Frightened you come to a choice</h4>
         <h5>Do you go in the house and explore, or do you walk by and pretend like it didn't happen?</h5>
         <button type="button" class="btn btn-success" id="openDoor">Go in</button> <button type="button" class="btn btn-success runAway">Run Away</button>
       </div>
       <div id="foyer">
         <img src="img/inside.jpg" alt="Inside the Spooky House" class="pictures">
-        <h4>You're in the house, with every second that comes by fear starts to creep in.</h4>
+        <h4>You're in the house, and with every second that passes, fear starts to creep in.</h4>
         <h5>Do you choose to keep looking for what made the noise? Or do you run out of the house and never look back?</h5>
         <button type="button" class="btn btn-success" id="investigate">Investigate</button> <button type="button" class="btn btn-success runAway">Run Away</button>
       </div>
       <div id="monster">
         <img src="img/monster.jpg" alt="A Spooky Monster" class="pictures">
-        <h4>BOO IT'S A MONSTER!!! What are you going to do now?!</h4>
-        <h5>Should we fight the monster? Or should we soothe the savage?</h5>
-        <button type="button" class="btn btn-success" id="fight">KILLLLLEM</button> <button type="button" class="btn btn-success" id="befriend">Be nice..</button>
+        <h4 class="boo">BOO IT'S A MONSTER!!!</h4>
+        <h4>What are you going to do now?!</h4>
+        <h5>Should we fight the monster? Or should we just try and be like, a really chill dude about it?</h5>
+        <button type="button" class="btn btn-success" id="fight">KILLLLLEM</button> <button type="button" class="btn btn-success" id="befriend">Be chill</button>
       </div>
       <div id="coward">
         <h3>You're a pansy</h3>
-        <img src="img/pansy.jpg" alt="Weenie Hut JR" id="weenieHut" class="pictures">
-        <button type="button" class="btn btn-primary tryAgain">Try Again!</button>
+        <img src="img/pansy.jpg" alt="Weenie Hut JR" id="weenieHut" class="pictures"><br/>
+        <button type="button" class="btn btn-success tryAgain">Try Again!</button>
       </div>
       <div id="pizzaParty">
         <img src="img/pizzaParty.png" alt="Pizza Party" class="pictures">
-        <h3>Cowabunga!</h3>
+        <h3 id="cowabunga">Cowabunga!</h3>
         <p>Turns out that this house is not haunted by a monster, the Ninja Turtles have decided to move out of the sewers and into the suburbs.<br/>Good thing you didn't try and fight them, huh?<br/>Now you have new friends and get to be part of the coolest pizza party on the block!</p>
-        <button type="button" class="btn btn-primary tryAgain">Try Again!</button>
+        <button type="button" class="btn btn-success tryAgain">Try Again!</button>
       </div>
       <div id="death">
         <img src="img/dead.jpg" alt="You died" class="pictures">
         <h2>You died.</h2>
-        <button type="button" class="btn btn-primary tryAgain">Try Again!</button>
+        <button type="button" class="btn btn-success tryAgain">Try Again!</button>
       </div>
       <div id="score">
 
